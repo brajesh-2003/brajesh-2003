@@ -1,0 +1,439 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(245, 235, 221);
+}
+/* for navbar look */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(162, 83, 235);
+    padding: 5px 20px;
+    font-size: 1.5rem;
+}
+
+.logo img{
+
+    max-width: 70px;
+    padding-left: 40px;
+    border-radius: 50%;
+    
+    /* Navbar listed Items */
+    
+} 
+
+.nav-li {
+         
+    list-style: none;
+    display: flex;
+    padding-right: 60px;
+    
+}
+.nav-li li{
+    margin: 0 10px;
+    
+}
+
+.nav-li li a {
+
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav-li a:hover{
+    color: blue;
+}
+                 /* Navbar botton icon */
+.button1{
+           background-color: rgba(239, 113, 113, 0.869);
+           color: rgba(250, 238, 247, 0.807);
+           border-style: double;
+           padding: 2px;
+           border-radius: 20%;
+}
+                                                      /* Start main page */
+
+
+
+main{
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+
+                                                         /* section 1 class="Home" */
+#Home{
+
+    display: flex;
+    justify-content: space-around;
+    margin: 90px 0;
+    border: solid white;
+    border-radius: 20PX;
+    background-color: aliceblue;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 600px;
+
+    
+
+}    
+   /* for left side elements */
+
+.left-section{
+
+    font-style: oblique;
+    font-size: 1.5rem;
+    margin: 150px;
+
+
+}
+
+.left-section h2 {
+
+    color: #d23ed7;
+
+
+}
+
+.icons img {
+    
+    margin: 15px;
+    
+
+    
+}
+
+.icons  a :hover{
+    size: 1PX;
+}
+
+       /* For right side side elements */
+
+
+    .profile-frame {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 200px;
+        border: 4px solid #844848; /* Frame border color */
+        border-radius: 50%; /* Circular frame */
+        overflow: hidden; /* Hide overflowing image parts */
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Optional shadow */
+        margin-top: 170px;
+        margin-right: 40px;
+    }
+    
+                                                    /* section 2 class=" About" */
+
+
+       
+            
+                           /*For full section */
+
+   #About {
+
+    margin: 100px 0;
+     
+   }                        
+
+    
+    #About h1 {
+
+        
+        margin-left: 850px;
+        margin-right: 500px;
+        margin-top: 50px;
+        color: hsl(165, 57%, 45%);
+        text-decoration: rgb(69, 31, 31) underline;
+
+          
+
+    }
+
+      .About-section1 {
+        font-size: 2rem;
+        display: flex;
+        justify-content: left;
+        border: solid white;
+        border-radius: 20PX;
+        background-color: aliceblue;
+        margin-left: 60px;
+        margin-right: 60px;
+        margin-bottom: 50px;
+        height: 400px;
+
+      }
+    
+
+
+    .About-lines  
+                       {
+                               margin: 20px;
+
+    }
+    
+                                                  /* Section 3 class="Skills" */
+
+
+
+#Skills{
+  
+    margin: 100px 0;
+ 
+
+}
+
+#Skills h1 {
+    margin-left: 850px;
+    margin-right: 500px;
+    margin-top: 50px;
+    color: hsl(165, 57%, 45%);
+    text-decoration: rgb(69, 31, 31) underline;   
+}
+
+
+.Skills-section1 {
+
+    font-size: 1.5rem;
+        display: flex;
+        justify-content: left;
+        border: solid white;
+        border-radius: 20PX;
+        background-color: aliceblue;
+        margin-left: 60px;
+        margin-right: 60px;
+        margin-bottom: 50px;
+        height: 400px;
+}
+
+.Skills-icons{
+
+    margin: 20px;
+}
+  .Skills-icons img {
+
+    margin: 15px;
+
+
+  }
+                                                         /* section 4 1st work experience */
+
+ 
+    #Work{
+
+     
+        margin: 100px 0;
+
+    }
+               
+    #Work h1 {
+        margin-left: 850px;
+    margin-right: 500px;
+    margin-top: 50px;
+    color: hsl(165, 57%, 45%);
+    text-decoration: rgb(69, 31, 31) underline;  
+
+    }
+
+    .Work-section1{
+            
+    display: flex;
+    justify-content: space-around;
+    border: solid white;
+    border-radius: 20PX;
+    background-color: aliceblue;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 400px;
+    }
+
+    .work-first a {
+
+        text-decoration: none;
+        
+
+    }
+
+
+  
+
+     .left-Skills {
+
+              margin: 100px;
+
+    }
+
+    .left-Skills img {
+
+        border: 10px solid rgb(178, 126, 126);
+        border-radius: 10px;
+    }
+
+             
+
+
+
+             .right-skills{
+
+                            margin: 70px;
+
+             }
+
+             .About-li h3{
+                 color: rgb(186, 80, 147);
+                margin-left: 200px;
+             }
+    
+    
+             /* add buttons in right-skills */
+
+
+             .Skills-button1{
+
+                        display: flex;
+                        justify-content: space-around;
+                        margin: 20px;
+
+                        
+
+             }
+
+
+
+             /* designs in buttons */
+
+             .left-button1 {
+
+            border: 2px solid rgb(91, 155, 121);
+            border-width: 10px;
+            border-radius: 20px;
+            background-color:rgb(91, 155, 121);
+            
+            color: rgb(254, 255, 255);
+            margin: 20px;
+
+             }
+
+             .right-button1 {
+
+                border: 2px solid rgb(91, 155, 121);
+            border-width: 10px;
+            border-radius: 20px;
+            background-color:rgb(91, 155, 121);
+            
+            color: rgb(254, 255, 255);
+            margin: 20px;
+            text-decoration: none;
+             }
+
+             
+
+
+
+
+                                                         /* for section 5 contacts */
+
+
+    #Contact{ 
+
+        margin: 100px 0;
+            
+            
+    }  
+
+    #Contact h1 {
+
+        margin-left: 850px;
+        margin-right: 500px;
+        margin-top: 50px;
+        color: hsl(165, 57%, 45%);
+        text-decoration: rgb(69, 31, 31) underline;  
+
+    }
+
+    .Contact-section1 {
+
+        display: flex;
+        justify-content: space-around;
+        border: solid white;
+        border-radius: 20PX;
+        background-color: aliceblue;
+        margin-left: 200px;
+        margin-right: 200px;
+        height: 300px;
+
+
+    }
+
+
+    /* for contacts  imgs */
+  
+
+    .Left-contact {
+
+                   margin: 100px;
+
+    }
+   .Left-contact img {
+
+                   border: 10px solid rgb(234, 171, 171);
+                   border-radius: 10px;
+                   
+
+   }
+
+
+
+   .Right-contact {
+             
+              margin: 50px;
+   }
+
+   .Right-contact img {
+
+    border: 10px solid rgb(234, 171, 171);
+    border-radius: 100px;
+
+   }
+
+
+                                                                  /* footer */
+
+
+              .footer {
+
+                 display: flex;
+                  justify-content: space-around;
+                 margin: 100px 0;
+                
+                 border-radius: 20PX;
+                
+                 margin-left: 600px;
+                margin-right: 600px;
+                  height: 50px;   
+
+                     }  
+                               
+                 .footer p{
+                                margin: 5px;
+                               }
+    
+     /*  h1{
+              margin-left: 650px;
+              margin-right: 550px;
+              color: rgba(30, 166, 105, 0.442);
+       }
+                                                                    */
+        
+
+    
+    
+
+
+
+
+
+
+
