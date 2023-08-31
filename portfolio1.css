@@ -3,7 +3,7 @@ body{
     padding: 0%;
     background-color: rgb(245, 235, 221);
 }
-/* for navbar look */
+/* for navbar look */ 
 .navbar{
     display: flex;
     justify-content: space-between;
