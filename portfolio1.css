@@ -17,7 +17,9 @@ body{
 
     max-width: 70px;
     padding-left: 40px;
-    border-radius: 50%;
+    border-radius: 100%;
+    margin-top: 1px
+    ;
     
     /* Navbar listed Items */
     
@@ -99,14 +101,14 @@ main{
 .icons img {
     
     margin: 15px;
-    
+    width: 70px;
+
+
 
     
 }
 
-.icons  a :hover{
-    size: 1PX;
-}
+
 
        /* For right side side elements */
 
@@ -373,13 +375,16 @@ main{
 
     .Left-contact {
 
-                   margin: 100px;
+                   margin-top: 60px;
+                   margin-left: 20px;
+                   
 
     }
    .Left-contact img {
 
                    border: 10px solid rgb(234, 171, 171);
-                   border-radius: 10px;
+                   border-radius: 100%;
+                   
                    
 
    }
@@ -388,7 +393,8 @@ main{
 
    .Right-contact {
              
-              margin: 50px;
+              margin-top: 95px;
+              margin-right: 20px;
    }
 
    .Right-contact img {
